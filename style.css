@@ -105,6 +105,11 @@ button {
     font-size: 12px;
 }
 
+.text {
+    display: flex;
+    margin: 16px;
+}
+
 .content-three {
     display: flex;
     flex-direction: column;
