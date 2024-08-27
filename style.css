@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 16px;
+
+}
+
+.headerlinks {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 16px;
+    
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.herosubtext, a {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.content-one {
+    background-color: #1F2937;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.herocontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+
+button, .content-four {
+    background-color: #3882F6;
+}
+
+button {
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 24px;
+
+}
+
+.button {
+    border-color: white;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenttitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 16px;
+    padding: 16px;
+}
+
+.content-two {
+    text-align: center;
+    margin-bottom: 128px;
+
+}
+
+.contenttwocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 144px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 10;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: 700;
+    margin: 32px;
+    font-size: 16px;
+}
+
+
+.content-four {
+    margin: 64px;
+    gap: 64px;
+    display: flex;
+    padding: 48px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.calltoaction {
+    font-weight: 700;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.signup{
+    color: #F9FAF8;
+}
+
+.footercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+}
